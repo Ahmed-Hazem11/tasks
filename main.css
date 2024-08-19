@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.header{
+    padding: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content p {
+    font-size: 20px;
+    font-weight: normal;
+    letter-spacing: 3px;
+}
+.content p span{
+font-weight: 800;
+}
+.content ul {
+    list-style: none;
+    display: flex;
+}
+.content ul li a{
+    text-decoration: none;
+    color: #414040;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.content ul li a:hover{
+    background-color: gray;
+}
+.header-2{
+    position: relative;
+}
+.header-2 img{
+   max-width: 100%;
+}
+.header-2 p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    color: white;
+}
+.header-2 p span {
+    font-weight: bold;
+    background-color: black;
+    padding: 5px;
+}
+.header-3 {
+    padding: 20px;
+}
+.header-3 h3 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.header-3 .content-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-3 .card {
+    width: calc(25% - 10px);
+    margin-right: 10px;
+    position: relative;
+}
+.header-3 .card img {
+  width: 100%;
+}
+.header-3 .card p{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  color: white;
+  background-color: black;
+  font-size: 20px;
+}
+.header-4{
+    padding: 20px;
+}
+.header-4 .cont{
+    padding: 20px;
+
+}
+.header-4 .cont h3 {
+    padding: 20px;
+    font-size: 30px;
+}
+.header-4 .cont p {
+ color: #7f7c7c;
+ width: 50%;
+}
+.header-4 .cont-2 {
+    display: flex;
+    flex-wrap: wrap ;
+}
+.header-4 .cards {
+    width: calc(25% - 10px);
+    margin-right: 10px;
+    position: relative;
+}
+.header-4 .cards img {
+    width: 100%;
+  }
+
+  .header-4 .cards h2 {
+    padding: 10px;
+  }
+  .header-4 .cards h3 {
+   padding: 10px;
+   color: gray;
+  }
+  .header-4 .cards p {
+    padding: 10px;
+  }
+  .header-4 .cards button {
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+  }
+.header-5 {
+    padding: 20px;
+}
+.header-5 .cont-3 {
+  padding: 20px;
+}
+.header-5 .cont-3 h3 {
+    padding: 10px;
+    font-size: 20px;
+}
+.header-5 form input:not(:last-child){
+    margin: 10px;
+    width: 100%;
+    padding: 10px;
+}
+.header-5 form input:last-child {
+    background: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 7px;
+    width: 20%;
+    transition: 0.3s;
+}
+.header-5 form input:last-child:hover {
+    background-color: gray;
+}
+.image-1 img {
+    width:calc(100%-20px);
+    padding : 20px;
+}
+.footer {
+    padding: 40px;
+    background-color: black;position: relative;
+}
+.footer p {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.footer p  a {
+    color: white;
+}
